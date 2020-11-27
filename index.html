@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tip Calculator</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link to calculator.css file -->
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+  </head>
+
+  <body>
+    <div class="TipForm">
+      <h1>Tip Calculator</h1>
+      
+      <form>
+        <!-- Primary input fields -->
+        <label>Bill: </label> <input type="text"></input> <br><br>
+        <label>Tip %: </label> <input type="text"></input> <br><br>
+        <label>Number of people: </label> <input type="text"></input> <br><br>
+      </form>
+      
+      <p id="OUTPUT"></p> <!-- output will be show here in <p> tag -->
+
+        <!-- Calculate button will help in calling Print_Restaurant_Variables() method -->
+      <button onclick="Print_Restaurant_Variables();">Calculate</button> <br><br>
+    </div>
+
+    <!-- Get the Accounting class from calculator.js file -->
+    <script type="text/javascript" src="calculator.js"></script>
+  </body>
+</html>

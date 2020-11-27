@@ -1,0 +1,74 @@
+html {
+	background-color: #2e3033 ;
+}
+
+.TipForm {
+	position: relative ;
+	width: 80% ;
+	height: auto ;
+	margin: auto ;
+	background-color: #2e3033 ;
+	color: white ;
+	border: 2px solid white ;
+	border-radius:20px ;
+}
+
+.TipForm h1 {
+	text-align:center ;
+	font-family: 'Courier New', Courier, monospace ;
+}
+
+.TipForm form {
+	text-align: right ;
+}
+
+.TipForm input {
+	width: 50% ;
+}
+
+.TipForm label {
+	font-weight: bold ;
+	font-size: 20px ;
+	font-family: 'Courier New', Courier, monospace ;
+}
+
+.TipForm p {
+	font-weight: bold ;
+	font-size: 25px ;
+	color: #f3d060 ;
+	font-family: 'Courier New', Courier, monospace ;
+}
+
+.TipForm button {
+	display: block ;
+	width: 70% ;
+	margin: auto ;
+	background-color: #f3d060 ;
+	border: 2px solid white ;
+	border-radius: 20px ;
+	color: #2e3033 ;
+	font-weight: bold ;
+	font-size: 20px ;
+	cursor: pointer ;
+}
+
+.TipForm button:hover {
+	background-color: #2e3033 ;
+	color:#f3d060 ;
+	border-color: #f3d060 ;
+	transition: 0.5s ;
+}
+
+
+/* To make UI responsive */
+@media only screen and ( max-width: 800px ) {
+	.TipForm h1 {
+		font-size: 7vw ;
+	}
+	.TipForm label {
+		font-size: 3vw ;
+	}
+  .TipForm p {
+		font-size: 5vw ;
+	}
+}
